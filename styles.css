@@ -1,0 +1,76 @@
+body{
+  background-color: #3c4245;
+  color:black;
+  text-align: center;
+  font-family: Tahoma, Geneva, sans-serif;
+  margin: 0;
+}
+
+.contact{
+  border-radius: 100%;
+  background-color: #f1bc31;
+  position: fixed;
+  height:10%;
+  width: 10%;
+  padding:0;
+}
+
+div{
+  padding: 15%;
+}
+
+.intro{
+  background-image: url(s1.png);
+  background-color: black;
+  padding: 20%;
+
+}
+
+.personal{
+  background-image: url(s5.png);
+   background-repeat: no-repeat;
+   height: 30%;
+}
+
+
+.education{
+  background-image: url(s2.png);
+   background-repeat: no-repeat;
+   height: 30%;
+}
+
+.employment{
+  background-image: url(s3.png);
+   background-repeat: no-repeat;
+   height: 30%;
+}
+
+.skills{
+  background-image: url(s1.png);
+   background-repeat: no-repeat;
+   height: 30%;
+}
+
+.military{
+  background-image: url(s5.png);
+   background-repeat: no-repeat;
+   height: 30%;
+}
+
+.courses{
+  background-image: url(s7.png);
+   background-repeat: no-repeat;
+   height: 30%;
+   text-align: left;
+}
+
+.volunteer{
+  background-image: url(s6.png);
+   background-repeat: no-repeat;
+   height: 30%;
+}
+
+
+ h1{
+  margin: 0;
+}
