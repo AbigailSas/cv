@@ -6,35 +6,55 @@ body{
   margin: 0;
 }
 
-.contact{
+.contactMe{
   border-radius: 100%;
-  background-color: #f1bc31;
+  background-color: black;
   position: fixed;
   height:10%;
   width: 10%;
   padding:0;
+  margin: 10px;
+  text-align: center;
+  /* display: none; */
 }
+
+.contactLink:link {
+  color: white;
+  text-decoration: none;
+}
+
+.contactLink:visited{
+  color: white;
+  text-decoration: none;
+}
+
 
 div{
   padding: 15%;
 }
 
+.myPic{
+  height:25%;
+  width:30%;
+  /* display:none; */
+  float: left;
+  margin-right: 100px;
+}
+
 .intro{
   background-image: url(s1.png);
   background-color: black;
-  padding: 20%;
-
 }
 
 .personal{
-  background-image: url(s5.png);
+  background-image: url(s2.png);
    background-repeat: no-repeat;
    height: 30%;
 }
 
 
 .education{
-  background-image: url(s2.png);
+  background-image: url(s4.png);
    background-repeat: no-repeat;
    height: 30%;
 }
@@ -43,16 +63,18 @@ div{
   background-image: url(s3.png);
    background-repeat: no-repeat;
    height: 30%;
+   text-align: left;
+
 }
 
 .skills{
-  background-image: url(s1.png);
+  background-image: url(s5.png);
    background-repeat: no-repeat;
    height: 30%;
 }
 
 .military{
-  background-image: url(s5.png);
+  background-image: url(s6.png);
    background-repeat: no-repeat;
    height: 30%;
 }
@@ -65,12 +87,39 @@ div{
 }
 
 .volunteer{
-  background-image: url(s6.png);
+  background-image: url(s8.png);
    background-repeat: no-repeat;
    height: 30%;
+   text-align: left;
 }
 
+.links{
+  color: white;
+  margin: 0;
+  padding: 30px;
+  word-spacing:70px;
+}
+
+.BottomLink:link {
+  color: white;
+  text-decoration: none;
+}
+
+.BottomLink:visited {
+  color: white;
+  text-decoration: none;
+}
 
  h1{
-  margin: 0;
+  font-size: 4rem;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 30px;
 }
