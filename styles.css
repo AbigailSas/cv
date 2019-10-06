@@ -44,6 +44,7 @@ div{
 .intro{
   background-image: url(s1.png);
   background-color: black;
+  text-align: right;
 }
 
 .personal{
